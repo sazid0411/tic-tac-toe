@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #0c0130;
+    text-align: center;
+}
+h1 {
+    font-size: 3rem;
+    color: white;
+    margin: 3rem;
+    margin-top: 0;
+}
+.container {
+    /* height: 70vh0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box {
+    cursor: pointer;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 .8rem #EB3678;
+    font-size: 8vmin;
+    background-color: #dd7646;
+    color: rgb(62, 62, 62);
+}
+#reset {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #4F1787;
+    border: none;
+    border-radius: 1rem;
+    margin: 2rem;
+    color: white;
+    cursor: pointer;
+}
+.winMassage {
+    height: 70vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1rem;
+}
+#msg {
+    font-size: 2rem;
+    color: white;
+}
+#newGame {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #4F1787;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    cursor: pointer;
+}
+.hide {
+    display: none;
+}
+h3{
+    color: beige;
+    text-align: end;
+    margin: 1rem;
+}
