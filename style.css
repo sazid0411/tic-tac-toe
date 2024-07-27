@@ -74,8 +74,9 @@ h1 {
 .hide {
     display: none;
 }
-h3{
+footer p{
     color: beige;
     text-align: end;
     margin: 1rem;
+    font-size: .9rem;
 }
