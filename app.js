@@ -6,8 +6,8 @@ let msg = document.querySelector("#msg");
 let main = document.querySelector(".main");
 let nowTrun = document.querySelector("#nowTurntext");
 let tapAudio = new Audio("tapp.wav");
-let winAudio = new Audio("win.mp3");
-let drawAudio = new Audio("draw.wav");
+//let winAudio = new Audio("win.mp3");
+//let drawAudio = new Audio("draw.wav");
 let scoreCountx = document.querySelector("#scorex")
 let scoreCounto = document.querySelector("#scoreo")
 
@@ -39,13 +39,13 @@ const enableBox = () => {
 }
 const showWinner = (winner) => {
     msg.innerText = `Congratulation winner is ${winner}`;
-    winAudio.play();
+    //winAudio.play();
     winMsg.classList.remove("hide");
 }
 
 const draw = () => {
     msg.innerText = `Upss Match Draw`;
-    drawAudio.play();
+    //drawAudio.play();
     winMsg.classList.remove("hide");
     main.classList.add("hide")
 
